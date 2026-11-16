@@ -43,8 +43,12 @@ body{overflow-x:clip}
   text-shadow:0 1px 18px rgba(0,0,0,.35)}
 .s-hero .s-lead{color:rgba(255,255,255,.92)!important;margin-top:18px;max-width:560px!important;font-size:1.04rem;
   text-shadow:0 1px 14px rgba(0,0,0,.4)}
-.s-hero .s-actions{margin-top:26px}
-.s-hero .s-link{color:#fff!important;border-bottom-color:rgba(255,255,255,.55)!important}
+.s-hero .s-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px}
+.s-hero .s-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;
+  padding:0 1.3em;border:1px solid rgba(255,255,255,.45)!important;border-radius:999px;
+  color:#fff!important;text-decoration:none!important;font-weight:600;font-size:.98rem;
+  background:rgba(255,255,255,.06);backdrop-filter:blur(2px);transition:background .2s,border-color .2s}
+.s-hero .s-link:hover{background:rgba(255,255,255,.16);border-color:#fff!important}
 .s-hero .s-eyebrow,.s-hero__img,.s-hero__photo,.s-hero__widget,.s-hero .s-ticks,.s-hero .s-rating{display:none!important}
 .s-section--widget{padding-top:clamp(32px,5vw,56px)}
 @media (max-width:820px){
